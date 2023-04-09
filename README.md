@@ -13,6 +13,7 @@ Focus will be on following tasks
 - [x] Read packets from pcap/pcapng file
 - [x] Decode tcp packet out of it
 - [ ] Mutate Some of field of tcp packet
+- [ ] Rewrite the modified packet back to pcap
 - [ ] Send this packet to some Tcp process on remote host
 
 
