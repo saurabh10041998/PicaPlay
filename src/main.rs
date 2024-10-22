@@ -12,6 +12,7 @@ use std::net::Ipv4Addr;
 
 fn modify_tcp_fields(t_packet: &TcpPacket, ipv4_source: &Ipv4Addr, ipv4_destination: &Ipv4Addr) {
     println!("[+] original tcp packet: {:#?}", t_packet);
+    println!("Tommorow I will start tinkering with this");
     let mut buf = vec![0; t_packet.packet().len()];
     let new_tcp_packet = MutableTcpPacket::new(&mut buf);
     if let Some(mut n_t_packet) = new_tcp_packet {
