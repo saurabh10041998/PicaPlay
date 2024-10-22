@@ -8,6 +8,12 @@ Previously I worked with pcap parsing and pcap rewriting in python3 using scapy 
 Now I am trying to build same things and gain more understanding in Rust.
 
 
+
+## Library being used
+- `pnet`: I am using this library to learn the packet crafting from first principle point of view
+- `pcap` : Reading the pcap and pcapng file format file
+
+
 Focus will be on following tasks
 
 - [x] Read packets from pcap/pcapng file
