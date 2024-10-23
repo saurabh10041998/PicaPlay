@@ -1,8 +1,8 @@
 use pcap::Capture;
 use pnet::packet::arp::ArpPacket;
-use pnet::packet::ethernet::{EtherTypes, EthernetPacket, MutableEthernetPacket};
+use pnet::packet::ethernet::{EtherTypes, EthernetPacket};
 use pnet::packet::ip::IpNextHeaderProtocols;
-use pnet::packet::{ipv4, PacketSize};
+use pnet::packet::ipv4;
 use pnet::packet::ipv4::{Ipv4Packet, MutableIpv4Packet};
 use pnet::packet::tcp;
 use pnet::packet::tcp::{TcpPacket, MutableTcpPacket};
