@@ -13,6 +13,14 @@ Now I am trying to build same things and gain more understanding in Rust.
 - `pnet`: I am using this library to learn the packet crafting from first principle point of view
 - `pcap` : Reading the pcap and pcapng file format file
 
+## Side notes
+To work with these crates, make sure you have installed libpcap on the vm.
+On ubuntu VM, this can be done using
+
+```bash
+sudo apt install libpcap-dev
+```
+
 
 Focus will be on following tasks
 
